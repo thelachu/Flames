@@ -1,2 +1,3 @@
 #FLAMES
 The core of the FLAMES algorithm involves first cleaning both names and removing all common letters, then finding the total count of the remaining letters—this count is the algorithm's key. Next, this key number is used to "cut" (eliminate) letters from the F-L-A-M-E-S list in a continuous, circular fashion. After each elimination, the counting restarts from the next available letter. This systematic process repeats until only one letter is left in the list, and that single letter is used by the app to determine and reveal the final relationship status.
+Live Demo : https://thelachu.github.io/Flames/
