@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flames</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header-left">
+        <h1>
+          <span style="color: #5b8fb9">F</span>
+          <span style="color: #e91e63">L</span>
+          <span style="color: #ffc107">A</span>
+          <span style="color: #4caf50">M</span>
+          <span style="color: #d32f2f">E</span>
+          <span style="color: #673ab7">S</span>
+        </h1>
+      </div>
+      <div class="header-right">
+        <div class="shivayya" id="shivayya">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="menu-container" id="menu-container">
+          <div id="menu">
+            <span id="light-mode">Light Mode</span>
+            <span>
+              <a href="https://thelachu.github.io/Portfolio/" target="_blank">
+                About me
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <dialog id="resultContainer">
+      <div id="result"></div>
+      <form method="dialog">
+        <button id="close">Close</button>
+      </form>
+    </dialog>
+
+    <!-- Main -->
+
+    <main>
+      <div class="container">
+        <div class="hero">
+          <p>
+            Find
+            <strong>FLAMES</strong>
+            by entering your name and your crush name
+          </p>
+          <div class="input-container">
+            <div class="inputTags">
+              <label for="fName">Enter Your Name :</label>
+              <input
+                id="fName"
+                type="text"
+                required
+                placeholder="Enter here..." />
+            </div>
+            <div class="inputTags">
+              <label for="lName">Enter Your Crush Name :</label>
+              <input
+                id="lName"
+                type="text"
+                required
+                placeholder="Enter here..." />
+            </div>
+            <div class="submit-div">
+              <button id="submit" type="submit">FIND YOUR BOND</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
